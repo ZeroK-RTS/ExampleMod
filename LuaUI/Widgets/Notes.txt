@@ -1,0 +1,1 @@
+These are two pretty simple example widgets. gui_center_n_select.lua centres the camera on your start unit at the beginning of a game; init_start_point_remover.lua removes the big annoying start-point-marker that's there by default. These should give you the basic idea of the structure of a widget.
