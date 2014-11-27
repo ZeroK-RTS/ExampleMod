@@ -20,7 +20,7 @@ local unitDef =
 	SightDistance = 400,
 	SoundCategory = "BUILDING",
 	Upright = 1,
-	WorkerTime = 1,
+	WorkerTime = 10,
 	levelground = 1,
 	
 -- Energy and metal related
@@ -31,7 +31,7 @@ local unitDef =
 	MetalStorage = 0,
 	EnergyMake = 50, 
 	MakesMetal = 0, 
-	MetalMake = 0,
+	MetalMake = 50,
 	
 -- Pathfinding and related
 	FootprintX = 4,

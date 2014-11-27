@@ -7,7 +7,6 @@ local unitDef =
 	Category = "BUILDING NOTSCOUT NOTHEAVY NOTAIR NOTSHIP NOTEPIC NOTSTEALTHY ALL",
 	ObjectName = "building.s3o",
 	Side = "TANK",
-	TEDClass = "PLANT",
 	script = "buildingscript.lua",
 
 -- Unit limitations and properties
