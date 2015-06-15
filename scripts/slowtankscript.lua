@@ -14,9 +14,11 @@ local function SlowTankThread()
 	while true do
 		Sleep(8000)
 		Spring.MoveCtrl.SetGroundMoveTypeData (unitID, {maxSpeed = 20})
+		Spring.MoveCtrl.SetGroundMoveTypeData (unitID, {maxSpeed = 20})
 		Spring.Echo("Slow Tank is slow")
 		
 		Sleep(8000)
+		Spring.MoveCtrl.SetGroundMoveTypeData (unitID, {maxSpeed = 100})
 		Spring.MoveCtrl.SetGroundMoveTypeData (unitID, {maxSpeed = 100})
 		Spring.Echo("Slow Tank is fast")
 	end
